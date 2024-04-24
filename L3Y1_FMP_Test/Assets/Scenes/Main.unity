@@ -3437,7 +3437,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 6d3f0704b2388d848b728040a33acad0, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 469df4a3ec17f844a807de20378cc6ea, type: 2}
   m_BuildHeightMesh: 0
 --- !u!4 &496009943
 Transform:
@@ -4147,7 +4147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bd8967b135f3134295dfd49107c7731, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 6977602870250677686, guid: 49f47e8d4cf0d0f448cbdd84410b1e80, type: 3}
+  bulletPrefab: {fileID: 9131561742446111230, guid: 64ff3c0a2aeb0564c881a23e618901ff, type: 3}
   firePoint: {fileID: 1007862795}
 --- !u!65 &1140491829
 BoxCollider:
@@ -4190,7 +4190,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: dabbae688f2009148ab1fbcf43358395, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4323,8 +4323,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 10
-  playerPrefab: {fileID: 3914457298128546505, guid: bf93d1e0cf7a66643a2b38efe987d1bc, type: 3}
+  playerPrefab: {fileID: 8400696014681027567, guid: 6f0d35f604282164699f41253965b353, type: 3}
   spriteUsed: 0
+  spriteAngle: 0
 --- !u!65 &1267172300
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4459,7 +4460,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh41486
+  m_Name: pb_Mesh59974
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -4742,7 +4743,7 @@ MonoBehaviour:
   - {fileID: 6220522074702792934, guid: fbf6fb5b53b8c494b99203eec0c944fe, type: 3}
   - {fileID: 9000420582557962511, guid: 53b554c3e9d14734c8f732a843c0c85b, type: 3}
   spawnRate: 1
-  spawnDistance: 15
+  spawnDistance: 30
   enemyCount: 5
 --- !u!4 &1677618311
 Transform:
