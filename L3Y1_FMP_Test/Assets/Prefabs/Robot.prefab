@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 2904731001999462389}
   - component: {fileID: 8515487937057852174}
   m_Layer: 0
-  m_Name: Player_Robot
-  m_TagString: Untagged
+  m_Name: Robot
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34,7 +34,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &7674247926438909411
 MonoBehaviour:
